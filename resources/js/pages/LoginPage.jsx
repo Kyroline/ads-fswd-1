@@ -69,9 +69,6 @@ const LoginPage = () => {
                             label='Password'
                             placeholder='••••••••' />
                         <Button disabled={!isActive || loading} >Sign in</Button>
-                        <p className="text-sm font-light text-gray-500">
-                            Don't have an account yet? <Link to='/register'><span className="font-medium text-primary hover:underline">Register</span></Link>
-                        </p>
                     </form>
                 </div>
             </div>
